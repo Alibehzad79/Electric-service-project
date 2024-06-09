@@ -1,0 +1,36 @@
+@font-face {
+  font-family: "Nab";
+  src: url(../fonts/Nab-Regular.ttf);
+}
+
+body {
+  background-color: #f8f9fa !important;
+  font-family: "Nab";
+  font-size: large !important;
+}
+
+.lamp {
+  color: rgb(255, 208, 0);
+}
+
+.services-items > div:nth-child(odd) > div {
+  box-shadow: 0px 5px 10px gray !important;
+  background-color: rgb(255, 255, 86) !important;
+  border: none !important;
+}
+
+.services-items > div:hover > div {
+  cursor: pointer !important;
+  box-shadow: 0px 5px 10px gray !important;
+  transition: all ease 0.3s !important;
+  transform: scale(1.01) !important;
+  background-color: rgb(255, 255, 86) !important;
+}
+
+.dropup {
+    z-index: 999 !important;
+}
+
+.dropup .hide-toggle.dropdown-toggle::after {
+  display: none !important;
+}
